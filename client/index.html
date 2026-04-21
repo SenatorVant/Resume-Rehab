@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume Rehab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🚀 Resume Rehab</h1>
+    <p>AI-powered resume optimizer</p>
+
+    <textarea id="resume" placeholder="Paste your resume here..."></textarea>
+    <textarea id="job" placeholder="Paste job description here..."></textarea>
+
+    <button onclick="analyze()">Analyze Resume</button>
+
+    <div id="loading" class="hidden">Analyzing...</div>
+    <pre id="output"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
